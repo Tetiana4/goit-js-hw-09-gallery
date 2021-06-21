@@ -2,7 +2,6 @@
 import galleryItems from "./app";
 
 // Создание и рендер разметки по массиву данных galleryItems из app.js и предоставленному шаблону.
-import galleryItems from "./app.js";
 const galleryBox = document.querySelector('.js-gallery');
 const galleryMarkup = createGallery(galleryItems);
 
